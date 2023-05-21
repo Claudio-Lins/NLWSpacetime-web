@@ -1,0 +1,17 @@
+import React from 'react'
+
+export function Copyright() {
+  return (
+    <div className="text-sm text-gray-200">
+      Feito com 💜 no NLW da{' '}
+      <a
+        target="_blank"
+        rel="noreferrer"
+        href="#"
+        className="leading-relaxed underline hover:text-gray-100"
+      >
+        Rocketseat
+      </a>
+    </div>
+  )
+}
